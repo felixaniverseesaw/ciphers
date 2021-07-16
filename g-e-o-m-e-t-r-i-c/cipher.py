@@ -1,5 +1,8 @@
 """
 A sort-of cipher made by Darren Yap, 2021.
+This cipher takes the ASCII printable characters (excluding whitespace), and
+reverses the string.
+For instance, 'a' becomes '@'.
 """
 import string as s
 
