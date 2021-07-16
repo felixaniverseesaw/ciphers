@@ -2,7 +2,7 @@
 A sort-of cipher made by Joshua Soh, 2021.
 """
 def sw():
-    inp = input('enter string: ').lower()
+    inp = input('enter string: ').lower().strip()
     outp = ""
 
     switcher = {
@@ -39,7 +39,11 @@ def sw():
         '{':'}',
         ']':'[',
         '|':'?',
-		'\xb2':'\xb3'
+	'¹':'⁰',
+	'²':'⁹',
+	'³':'⁸',
+	'⁴':'⁷',
+	'⁵':'⁶',
     }
 
     def switch(x):
